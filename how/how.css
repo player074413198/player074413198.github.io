@@ -1,0 +1,20 @@
+/* title */
+h1 {font-family: Calibri, Helvetica, sans-serif; color: white; font-size: 6.5em}
+
+/* regular font */
+p {font-family: Calibri, Helvetica, sans-serif; color: white; font-size: 1.3em}
+
+
+/*link colour*/
+a.list {font-family: Calibri, Helvetica, sans-serif}
+a.list:link {color: #00a7cc}
+a.list:visited {color: #00a7cc}
+a.list:hover {color: #00ffc8; text-decoration: underline}
+
+/*home link colour*/
+a.home {font-family: Calibri, Helvetica, sans-serif; font-size: 1.9em}
+a.home:link {color: #ce00e0}
+a.home:visited {color: #ce00e0}
+a.home:hover {color: #ea00ff; text-decoration: underline}
+
+
