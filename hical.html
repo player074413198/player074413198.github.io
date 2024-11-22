@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hight calcualtor</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="page5.css">
+    </head>
+
+    <body style="background-color:#202d42">
+       <a class="home" href="index.html">home</a>
+
+	<p>enter your hight in CM</p>
+	<input type="number" id="hight" name="hight">
+	<button type="button" onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+	var x = document.getElementById("hight").value;
+        document.getElementById("demo").innerHTML = "your hight is "+(x)+" cm";
+    }
+    </script>
+
+    </body>
+</html>
