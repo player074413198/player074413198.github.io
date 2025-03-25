@@ -16,22 +16,23 @@ label {
 
 /*home button*/
 .home-button {
-    background: linear-gradient(135deg, #1d6ebe, #1E90FF); /* Gradient background */
+    background: linear-gradient(180deg, #4fa1f3, #4283c4); /* Gradient background */
     color: #7FFFD4; /* Aqua text color */
     font-size: 18px;
     padding: 8px 14px;
     border: none;
-    border-radius: 18px;
+    border-radius: 8px;
     cursor: pointer;
 
 }
 
 .home-button:hover {
-    background: linear-gradient(135deg, #1d6ebe, #1C86EE);
+    background: linear-gradient(180deg, #1d6ebe, #1d6ebe);
 }
 
 .home-button:active {
-    background: linear-gradient(135deg, #1d6ebe, #1874CD);
+    background: linear-gradient(180deg, #14589b, #14589b);
 }
+
 
 
