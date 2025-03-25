@@ -18,3 +18,22 @@ a.home:visited {color: #ce00e0}
 a.home:hover {color: #ea00ff; text-decoration: underline}
 
 
+/*home button*/
+.home-button {
+    background: linear-gradient(135deg, #1d6ebe, #1E90FF); /* Gradient background */
+    color: #7FFFD4; /* Aqua text color */
+    font-size: 18px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+
+}
+
+.home-button:hover {
+    background: linear-gradient(135deg, #1d6ebe, #1C86EE);
+}
+
+.home-button:active {
+    background: linear-gradient(135deg, #1d6ebe, #1874CD);
+}
