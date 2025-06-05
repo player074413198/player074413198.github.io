@@ -1,0 +1,3 @@
+16:9 width="972.8" height="547.2"
+4:3 width="729.6" height="547.2"
+3:4 width="410.4px" height="547.2px"
