@@ -3,25 +3,42 @@
     <head>
         <title>gognet - hight calculator</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<link rel="stylesheet" href="page5.css">
+	<link rel="stylesheet" href="style.css">
     </head>
 
     <body style="background-color:#202d42">
         <a class="home" href="index.html"> <button class="home-button">home</button> </a>
 
-	<center> <p>enter your hight in CM</p> </center>
+	<center> <p>Enter your hight in CM</p> </center>
 	<center>
-		<input type="number" id="hight" name="hight">
-		<button type="button" onclick="myFunction()">Try it</button>
-      		<p id="demo"></p>
+		<input class="text-box" type="number" id="hightCM" name="hightCM">
+		<button class="button" type="button" onclick="highcalCM()">Calculate</button>
+      		<p id="highcalCM"></p>
 	</center>
 
-    <script>
-    function myFunction() {
-	var x = document.getElementById("hight").value;
-        document.getElementById("demo").innerHTML = "your hight is "+(x)+" cm";
-    }
-    </script>
+   	 <script>
+   		function highcalCM() {
+			var x = document.getElementById("hightCM").value;
+     			document.getElementById("highcalCM").innerHTML = "Your hight is "+(x)+" cm";
+  			}
+    	</script>
+    	
+    	<center>.</center>
+    	<center>.</center>
+    
+	<center> <p>Enter your hight in KM/h²</p> </center>
+	<center>
+		<input class="text-box" type="number" id="hightKM" name="hightKM">
+		<button class="button" type="button" onclick="highcalKM()">Calculate</button>
+      		<p id="highcalKM"></p>
+	</center>
+
+   	 <script>
+   		function highcalKM() {
+			var x = document.getElementById("hightKM").value;
+     			document.getElementById("highcalKM").innerHTML = "Your hight is "+Math.pow(Math.round(x), 16)+" inches";
+  			}
+    	</script>
 
     </body>
 </html>
