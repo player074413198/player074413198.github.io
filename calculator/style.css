@@ -1,0 +1,80 @@
+/* title */
+h1 {font-family: Calibri, Helvetica, sans-serif; color: white; font-size: 6.5em}
+h2 {font-family: Calibri, Helvetica, sans-serif; color: white; font-size: 5.5em}
+
+/* regular font */
+p {font-family: Calibri, Helvetica, sans-serif; color: white; font-size: 1.3em}
+.p {font-family: Calibri, Helvetica, sans-serif; color: white; font-size: 1.3em}
+
+
+/* other */
+h6 {font-family: Calibri, Helvetica, sans-serif; color: white}
+
+/*link colour*/
+a.list {font-family: Calibri, Helvetica, sans-serif}
+a.list:link {color: #00a7cc}
+a.list:visited {color: #00a7cc}
+a.list:hover {color: #00ffc8; text-decoration: underline}
+
+/*home link colour*/
+a.home {font-family: Calibri, Helvetica, sans-serif; font-size: 1.9em}
+a.home:link {color: #ce00e0}
+a.home:visited {color: #ce00e0}
+a.home:hover {color: #ea00ff; text-decoration: underline}
+
+/*home button*/
+.home-button {
+    background: linear-gradient(180deg, #5eadfc, #3f79b4); /* Gradient background */
+    color: #7FFFD4; /* Aqua text color */
+    font-size: 18px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background: linear-gradient(180deg, #1d67b1, #1c72c9);
+}
+
+.home-button:active {
+    background: linear-gradient(180deg, #1c61a7, #1967b4);
+}
+
+div {
+  padding: 30px;
+
+}
+
+/*button button*/
+.button {
+    background: linear-gradient(180deg, #5eadfc, #3f79b4); /* Gradient background */
+    color: #7FFFD4; 
+    font-size: 18px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*text box*/
+.text-box {
+    background: linear-gradient(180deg, #5eadfc, #3f79b4); /* Gradient background */
+    color: #7FFFD4;
+    font-size: 18px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*table*/
+.table {
+    background: linear-gradient(180deg, #5eadfc, #3f79b4); /* Gradient background */
+    color: #7FFFD4;
+    font-size: 18px;
+    padding: 4px 7px;
+    border-radius: 6px;
+    border: 1px solid;
+
+}

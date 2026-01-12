@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gognet - calculator</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="background-color:#202d42">
+        <a class="home" href="index.html"> <button class="home-button">home</button> </a>
+
+    	<center> <p>Enter your hight in CM</p> </center>
+    	<center>
+    		<p><input class="text-box" type="number" id="num1" name="number1"></p>
+            <p>add</p>
+    		<p><input class="text-box" type="number" id="num2" name="number2"></p>
+    		<p><button class="button" type="button" onclick="calculate();">Calculate</button></p>
+          	    <p id="calculate"></p>
+    	</center>
+
+       	 <script>
+       	    function calculate() {
+    		    var x = document.getElementById("num1").value;
+                var y = document.getElementById("num2").value;
+         		document.getElementById("calculate").innerHTML = "i dont fucking know, ask google"
+      			}
+        </script>
+    </body>
+</html>
