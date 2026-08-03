@@ -7,12 +7,14 @@
     </head>
 
     <body style="background-color:#202d42">
+    <div>
         <a class="home" href="index.html"> <button class="home-button">home</button> </a>
+        <p> <center> <h2>hight calculators</h2> </center> </p>
 
     	<center> <p>Enter your hight in CM</p> </center>
     	<center>
     		<input class="text-box" type="number" id="hightCM" name="hightCM">
-    		<button class="button" type="button" onclick="highcalCM()">Calculate</button>
+    		<button class="home-button" type="button" onclick="highcalCM()">Calculate</button>
           		<p id="highcalCM"></p>
     	</center>
 
@@ -29,7 +31,7 @@
     	<center> <p>Enter your hight in KM/h²</p> </center>
     	<center>
     		<input class="text-box" type="number" id="hightKM" name="hightKM">
-    		<button class="button" type="button" onclick="highcalKM()">Calculate</button>
+    		<button class="home-button" type="button" onclick="highcalKM()">Calculate</button>
        		<p id="highcalKM"></p>
     	</center>
 
@@ -39,5 +41,6 @@
      		document.getElementById("highcalKM").innerHTML = "Your hight is "+Math.pow(Math.round(x), 16)+" inches";
   			}
     	</script>
+    </div>
     </body>
 </html>
